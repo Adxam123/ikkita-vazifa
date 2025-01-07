@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.section-title {
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card {
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width: 100%; /* Kartaning kengligini qatorga moslashtirish */
+    height: auto; /* Balandlik avtomatik */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    height: 200px; /* Rasm balandligi */
+    object-fit: cover; /* Rasmlar proporsiyasini saqlash */
+    width: 100%; /* Rasm kengligini kartaga moslashtirish */
+    border-bottom: 1px solid #ddd; /* Rasmdan ajratish uchun chiziq */
+}
+
+.card-body {
+    text-align: center;
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.navbar {
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+
+.hero-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero-content h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.app-buttons a {
+    margin-right: 10px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 40px 0 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between; /* Ikkita bo'limni ikki tomonga ajratadi */
+    align-items: flex-start; /* Bo'limlarni yuqori qatorga tekislash */
+    gap: 20px; /* Ikkita bo'lim orasidagi bo'sh joy */
+    margin: 20px 0; /* Yuqori va pastki bo'sh joy */
+}
+
+
+
+.Slov h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.Slov p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
+.text-00 h6 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+}
+
+.text-00 input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.text-00 .button {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.text-00 button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.text-00 button:hover {
+    background-color: #0056b3;
+}
+
+.text-00 p {
+    margin-top: 10px;
+    color: #666;
+    font-size: 0.9rem;
+}
+.oxiri{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
